@@ -1,10 +1,12 @@
-# dirperseur et dimentineur et timer ideal de planete du systeme solaire
+# disperseur et dimentionneur et timer ideal de planete du systeme solaire
 
 i=2
 n=0
 q=1.2
+
 result = []
 index = 7
+
 nombre_max = int(input("Entrez le nombre maximun a atteindre: "))
 marge_max = int(input("Entrez la marge de manoeuvre: "))
 
