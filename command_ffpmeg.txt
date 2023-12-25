@@ -1,0 +1,1 @@
+ffmpeg -r 30 -f image2 -s 800x600 -i frames/frame_%04d.png -vcodec libx264 -crf 25 output.mp4

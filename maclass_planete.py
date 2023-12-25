@@ -1,6 +1,6 @@
 import pygame, math
-
 from pygame_initial import *
+
 class planete:
     def __init__(self, name, rayon, vitesse, distance_sun, color, angle, x, y):
         self.name = name
