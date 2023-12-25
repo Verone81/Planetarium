@@ -15,7 +15,6 @@ saturne = planete("saturne",18.986 , 0.035, 300,(192,192,192), rad, xx_planete, 
 uranus = planete("uranus",5.131, -0.02, 450,(30,144,255), rad, xx_planete, yy_planete)
 neptune = planete("neptune", 3.385, 0.015, 900,(153,50,204), rad, xx_planete, yy_planete)
 
-
 #frame_number = 0
 clock = pygame.time.Clock()
 play = True
@@ -31,10 +30,6 @@ while play:
             elif event.key == pygame.K_p:
                 time.sleep(5)
        
-                
-
-        
-
     syst.fill((15, 15, 15))
 
     # calculce des mouvement
@@ -57,5 +52,6 @@ while play:
     neptune.dessine_planete()
     #pygame.image.save(syst, f'frames/frame_{frame_number:04d}.png')
     #frame_number += 1
+
     pygame.display.flip()
 pygame.quit()

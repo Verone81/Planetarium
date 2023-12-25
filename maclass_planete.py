@@ -1,4 +1,5 @@
 import pygame, math
+
 from pygame_initial import *
 class planete:
     def __init__(self, name, rayon, vitesse, distance_sun, color, angle, x, y):
@@ -17,5 +18,7 @@ class planete:
         self.x = LARGEUR_ECRAN/3  + self.distance_sun * math.cos(self.angle)
         self.y = (HAUTEUR_ECRAN/3) * 2 + self.distance_sun * math.sin(self.angle)  
         
+    
     def dessine_planete(self):
         pygame.draw.circle(syst, (self.color), (int(self.x), int(self.y)), self.rayon, 0)
+        
